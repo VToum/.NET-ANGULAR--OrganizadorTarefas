@@ -1,0 +1,15 @@
+<div class="card__Tarefa">
+    <div class="div_container_criarAgenda"> 
+        <form [formGroup]="formTarefa" (ngSubmit)="enviarFormulario()">
+            <div class="form-group">
+              <label for="titulo" class="form-label" style="font-family: monospace; font-size: 14px;">Titulo</label>
+              <input class="form-control" type="text" name="titulo" id="titulo" formControlName="titulo" required>
+            </div>
+            <div class="form-floating">
+              <label for="descricao" class="form-label" style="font-family: monospace; font-size: 14px;">Descrição</label>
+              <textarea class="form-control" type="text" name="descricao" id="descricao" formControlName="descricao" required style="height: 100px; margin-bottom: 10px;"></textarea>
+            </div>
+            <button class="btn btn-primary" style="font-family: monospace; font-size: 14px;">Criar</button>
+          </form>
+    </div>
+</div>

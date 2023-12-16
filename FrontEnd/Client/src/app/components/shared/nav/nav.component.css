@@ -1,0 +1,21 @@
+.navbar__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    background-color: rgb(245, 242, 242);
+    box-shadow: 0px 0px 1px 1px #F6C02A;
+}
+
+.container__nav{
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 32px;
+}
